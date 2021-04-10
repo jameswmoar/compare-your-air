@@ -1,0 +1,44 @@
+.cardOuter {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+}
+
+@media (min-width: 578px) {
+    .cardOuter {
+        align-self: stretch;
+    }
+}
+
+.closeButton {
+    float: right;
+    padding: 5px;
+    background: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.cardText {
+    text-align: left;
+    padding: 10px;
+}
+
+.valueData {
+    font-weight: bold;
+}
+
+.textItem {
+    padding: 2px;
+}
+
+.location {
+    color: #7836ad;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lastUpdated {
+    font-weight: 600;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,40 @@
+.section {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .searchBar {
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px lightgray solid;
+}
+
+.matches {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.match:hover {
+    background-color: lightgray;
+}
+
+.input {
+    border: none;
+    width: 80%;
+    height: 80%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.searchIcon {
+    align-content: center;
+    padding: 10px;
+}

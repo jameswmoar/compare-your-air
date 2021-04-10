@@ -1,0 +1,7 @@
+.error {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 5rem;
+  }
+  
